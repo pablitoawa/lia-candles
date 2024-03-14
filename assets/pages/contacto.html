@@ -109,11 +109,6 @@
                       >Nosotros</a
                     >
                   </li>
-                  <li>
-                    <a class="dropdown-item" href="/assets/pages/contacto.html"
-                      >Contacto</a
-                    >
-                  </li>
                 </ul>
               </li>
             </ul>
@@ -123,49 +118,46 @@
     </header>
 
     <main>
-      <div class="container">
-        <section>
-          <h1 class="text-center title">CARRITO</h1>
+        <h1 class="text-center mt-5 title">Contacto</h1>
+        <section class="container mt-5">
+            <article class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255343.8852140958!2d-78.68652411569553!3d-0.3396750786766856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59b6c72f8d4d7%3A0x730c86e503d3c29!2sEdgar%20Sandoval%20Photostudio!5e0!3m2!1ses!2sec!4v1709214008468!5m2!1ses!2sec" style="border:0; aspect-ratio: 4/3; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-2">
+                            <label for="InputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="InputName">
+                          </div>
+                        <div class="mb-2">
+                          <label for="InputEmail" class="form-label">Email </label>
+                          <input type="email" class="form-control" id="InputEmail">
+                        </div>
+                        <div class="mb-2">
+                            <label for="InputAffair" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="InputAffair">
+                          </div>
+                          <div class="mb-2">
+                            <label for="InputMessage" class="form-label">Mensaje</label>
+                            <input type="text" class="form-control" id="InputMessage">
+                          </div>
+                        <div class="mb-2 form-check">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                      </form>
+                </div>
+            </article>
+            <article class="text-center mt-5">
+                <h2 class="title">Informacion de contacto</h2>
+                <p><strong>Dirección:</strong> Calle X, número Y, Quito, Ecuador.</p>
+                <p><strong>Teléfono:</strong> (593) 2 222 2222.</p>
+                <p>
+                    <strong>Correo electrónico:</strong>
+                    <a href="mailto:info@pictures.com">info@velas.com</a>
+                </p>
+                <p><strong>Redes sociales:</strong><a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="" class="ico_logo">&nbsp;&nbsp;</a><a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" class="ico_logo"></a></p>
+            </article>
         </section>
-
-        <div>
-          <section>
-            <table class="table align-middle mb-3 bg-white">
-              <thead class="bg-light">
-                <tr>
-                  <th>Producto</th>
-                  <th>Cantidad</th>
-                  <th>Total</th>
-                  <th>Acción</th>
-                </tr>
-              </thead>
-              <tbody id="tbody"></tbody>
-            </table>
-          </section>
-
-          <section>
-            <table class="table align-middle mb-0 bg-white">
-              <tbody>
-                <tr>
-                  <td>
-                    <div class="d-flex align-items-center">
-                      <div class="ms-2">
-                        <p class="fw-bold mb-1">Total a Pagar:</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="text-end fw-bold">
-                    <p id="total"></p>
-                  </td>
-                  <td class="text-center">
-                    <button type="button" class="btn btn-success btn-sm btn-rounded">Proceder al Pago</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-        </div>
-      </div>
     </main>
 
     <div class="my-5">
@@ -185,7 +177,11 @@
                 <h6 class="text-uppercase mb-4 font-weight-bold">
                   Lia Candles
                 </h6>
-                <p>Únete a nosotros en este viaje místico y descubre el poder transformador de las velas y los productos esotéricos de Lia Candles.❤️</p>
+                <p>
+                  Únete a nosotros en este viaje místico y descubre el poder
+                  transformador de las velas y los productos esotéricos de Lia
+                  Candles.❤️
+                </p>
               </div>
               <!-- Grid column -->
 
