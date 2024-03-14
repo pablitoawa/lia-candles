@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="132.29167" height="132.29167" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+
+ <metadata id="metadata1247">image/svg+xml</metadata>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g1220" transform="matrix(5.50842 0 0 5.50842 622.974 -708.113)">
+    <path d="m-89.45,140.56l-11.64,0l3.03,3.02l8.61,-3.02z" fill="#fce7e4" id="path1149-8" stroke-width="0.75px"/>
+    <g id="g9463-2-1-4-2" transform="matrix(0.75 0 0 0.75 -153.394 -25.4058)">
+     <path d="m65.71,217.25l-11.47,4.04l11.47,4.03l4.04,11.48l4.03,-11.48l11.48,-4.03l-11.48,-4.04l-4.03,-11.47l-4.04,11.47z" fill="#000000" id="Delta_Crucis-7-7-4-4-2" stroke-width="0.31"/>
+    </g>
+    <path d="m-101.09,128.92l0,11.64l3.03,-3.03l-3.03,-8.61z" fill="#fce7e4" id="path1149" stroke-width="0.75px"/>
+    <path d="m-89.45,140.56l-11.64,0l3.03,3.02l8.61,-3.02z" fill="#fce7e4" id="path1149-2" stroke-width="0.75px"/>
+    <path d="m-101.09,152.19l0,-11.63l-3.02,3.02l3.02,8.61z" fill="#e5c9f5" id="path1149-2-3" stroke-width="0.75px"/>
+    <path d="m-112.72,140.56l11.63,0l-3.02,-3.03l-8.61,3.03z" fill="#e5c9f5" id="path1149-2-8" stroke-width="0.75px"/>
+   </g>
+  </g>
+ </g>
+</svg>

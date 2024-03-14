@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --bg:#e4dade;
+    --bg2:#d3c7ce;  
+}
+
+* {
+  scrollbar-width: none;
+  border-radius: 25px;
+}
+
+body {
+  background: var(--bg) fixed;
+}
+
+.cont-svg {
+  position: relative;
+  top: 7px;
+}
+
+.cont-svg-out {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+}
+
+.cont-svg-in {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Posiciona el SVG encima del otro */
+}
+
+.spinning-element {
+  font-size: 5rem;
+  animation: spin 5s ease infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(4turn);
+  }
+}
+
+/* Scroll-Driven animation for spinning element */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    .spinning-element {
+      animation: spin linear both;
+      animation-timeline: scroll();
+    }
+  }
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+}
+
+.logo {
+  font-family: "Cavalier", sans-serif;
+  font-size: 18px;
+}
+
+.logo:hover {
+  background-color: #b98cd7;
+}
+
+
+.no-border {
+  border-radius: 0 !important;
+}
+
+.ico {
+  width: 50px;
+}
+
+.ico_logo {
+  width: 25px;
+}
+.ico-footer {
+  width: 20px;
+}
+
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  background: var(--bg2) fixed;
+}
+
+.cap-carousel {
+  background-color: antiquewhite;
+}
+
+.active {
+  background-color: #b98cd7;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.servicecard {
+  background-color: wheat;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.pic_service {
+  width: 100%;
+  aspect-ratio: 62/35;
+}
+
+.pic {
+  width: 10%;
+  height: 10%;
+}
+
+.list {
+  font-size: 18px;
+}
+
+.test {
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.test2 {
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}
+
+.link-effect a {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.2s ease-in;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.link-effect a::after {
+ content: attr(data-after);
+ display: inline-block;
+ transform: translateY(100%);
+ position: absolute;
+ left: 0;
+ right: 0;
+ text-align: inherit;
+ transition: inherit;
+ background-color: #fff;
+}
+.link-effect a > span {
+ display: inline-block;
+ transform: translateY(0%);
+ transition: inherit;
+}
+.link-effect:hover a > span {
+ transform: translateY(-100%);
+}
+.link-effect:hover a::after {
+ transform: translateY(0%);
+}
+
+
+/* Filters Buttons */
+#filters .btn{
+  border: solid 1px var(--gray-color-500);
+}
+#filters .btn:hover {
+  color: var(--dark-color);
+  border: solid 1px var(--black-color);
+  background: none;
+}
+#filters .btn:hover {
+  color: var(--dark-color);
+  border: solid 1px var(--black-color);
+  background: none;
+}
+#filters .btn.is-checked{  
+  border: solid 1px var(--black-color);
+}
+
+.product-tabs .review-item .image-holder{
+  margin-right: 10px;
+}
+@media screen and (max-width: 991px) {
+  .product-tabs .review-item{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .product-tabs .review-item .image-holder{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cart-header{
+    display: none;
+  }
+}
+
+
+.social:hover{
+  background-color: #b98cd7;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer::hover {
+  background-color: #b98cd7;
+}
+
+.alert {
+  position: relative;
+  top: 10;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.notification-alert {
+  position: fixed;
+  z-index: 9999;
+  top: 10px;
+  right: 10px;
+}
+
+.alertCheckbox {
+  display: none;
+}
+
+:checked + .alert {
+  display: none;
+}
+
+.alertText {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alertClose {
+  float: right;
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.success {
+  background-color: #EFE;
+  border: 1px solid #DED;
+  color: #9A9;
+}
