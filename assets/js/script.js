@@ -120,7 +120,7 @@ async function getJSON(data) {
     actualizarTabla()
 
   } catch (error) {
-    console.error("Error:", error);
+    console.log("Error:", error);
   }
 }
 
@@ -145,7 +145,7 @@ async function putJSON(data) {
       
   
     } catch (error) {
-      console.error("Error:", error);
+      console.log("Error:", error);
     }
   }
 
@@ -162,9 +162,9 @@ async function putJSON(data) {
         actualizarTabla();
         console.log("Elemento eliminado correctamente");
       } else {
-        console.error("Error al eliminar el elemento");
+        console.log("Error al eliminar el elemento");
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.log("Error:", error);
     }
   }

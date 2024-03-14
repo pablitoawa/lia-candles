@@ -1,36 +1,3 @@
 {
-  "carrito": [
-    {
-      "id": "11",
-      "imagen": "/assets/images/products/esoteric/cuarzo rosa.webp",
-      "producto": "Pulsera cuarzo rosa",
-      "descripcion": "Es un cristal que aporta calma y seguridad",
-      "precio": 54,
-      "cantidad": 1
-    },
-    {
-      "id": "3",
-      "imagen": "/assets/images/products/candles/product-thumb-3.jpg",
-      "producto": "Vela Clásica",
-      "descripcion": "Vela blanca aromática",
-      "precio": 54,
-      "cantidad": 1
-    },
-    {
-      "id": "8",
-      "imagen": "/assets/images/products/candles/product-thumb-5.jpg",
-      "producto": "Vela AMRBE",
-      "descripcion": "Vela parisí aromática",
-      "precio": 42,
-      "cantidad": 1
-    },
-    {
-      "id": "6",
-      "imagen": "/assets/images/products/candles/product-thumb-6.jpg",
-      "producto": "Vela Signific",
-      "descripcion": "Vela pequeña decorativa",
-      "precio": 33,
-      "cantidad": 1
-    }
-  ]
+  "carrito": []
 }
